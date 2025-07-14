@@ -154,8 +154,7 @@ class HospitalApp:
         # Refresh patient data
         self.patient_table.delete(*self.patient_table.get_children())
         for patient in get_patients():
-            self.patient_table.insert("", tk.END, values=(
-                patient[0], patient[1], patient[2], "Yes" if patient[3] else "No", patient[5]))
+            self.patient_table.insert("", tk.END, values=(patient[0], patient[1], patient[2], "Yes" if patient[3] else "No", patient[5]))
 
     def add_patient(self):
         name = self.patient_name_entry.get()
