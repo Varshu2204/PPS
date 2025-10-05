@@ -1,4 +1,4 @@
-# Patient Prioritization System – BMS Hospital
+# Patient Prioritization System 
 
 This desktop application helps hospital staff manage patient intake and doctor assignments based on severity and emergency status. Built with Python and Tkinter, it uses a local SQLite database to store and prioritize patient data.
 
